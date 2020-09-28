@@ -27,6 +27,8 @@ body {
 }
 
 .main-body {
+    width: 60%;
+    margin: auto;
     border: 2px solid #ffffff;
     background-color: #fff;
     box-shadow: -1px 8px 20px 11px grey;
@@ -70,10 +72,7 @@ select {
     width: 100%;
 }
 
-.main-body {
-    width: 60%;
-    margin: auto;
-}
+
 
 .header {
     width: 100%;
@@ -170,4 +169,18 @@ footer {
 .right {
     float: right;
     margin-right: 3vw;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: lightblue;
+    }
+
+    .main-body {
+        width: 100%;
+    }
+
+    .form {
+        width: 100%;
+    }
 }

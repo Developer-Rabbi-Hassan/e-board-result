@@ -102,15 +102,17 @@ table {
 }
 
 td {
-    width: 50%;
+    width: 33%;
 }
 
 label {
     text-transform: capitalize;
+    margin-left: 10%;
 }
 
 select {
-    width: 100%;
+    width: 90%;
+    margin-right: 10%;
 }
 
 .table2 {
@@ -121,6 +123,10 @@ select {
     border: 1px solid black;
     text-transform: capitalize;
     width: 225px;
+}
+
+.table2 td span {
+    color: red;
 }
 
 .p-1 {
@@ -140,18 +146,30 @@ select {
 
 .Roll {
     float: right;
+    width: 90%;
+    margin-right: 10%;
 }
 
 .Reg {
     float: right;
+    width: 90%;
+    margin-right: 10%;
+}
+
+.sum {
+    width: 90%;
+    margin-right: 10%;
 }
 
 #Submit {
+    width: 45%;
     float: right;
+    margin-right: 10%;
 }
 
 #Reset {
     float: right;
+    width: 45%;
 }
 
 footer {
@@ -192,10 +210,6 @@ footer {
 
 @media only screen and (max-width: 600px) {
     .main-body {
-        width: 100%;
-    }
-
-    .form {
         width: 100%;
     }
 }

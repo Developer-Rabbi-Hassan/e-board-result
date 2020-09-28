@@ -2,30 +2,6 @@ body {
     background-color: #EEEEEE;
 }
 
-.year {
-    float: Right;
-}
-
-.board {
-    float: Right;
-}
-
-.Roll {
-    float: right;
-}
-
-.Reg {
-    float: right;
-}
-
-#Submit {
-    float: right;
-}
-
-#Reset {
-    float: right;
-}
-
 .main-body {
     width: 60%;
     margin: auto;
@@ -33,46 +9,6 @@ body {
     background-color: #fff;
     box-shadow: -1px 8px 20px 11px grey;
 }
-
-.form {
-    border: 2px solid black;
-    width: 80%;
-    left: 0;
-    right: 0;
-    margin: auto;
-}
-
-table {
-    left: 0;
-    right: 0;
-    margin: 7vh auto;
-}
-
-.table2 {
-    display: none;
-}
-
-.table2 td {
-    border: 1px solid black;
-    text-transform: capitalize;
-    width: 225px;
-}
-
-
-
-td {
-    width: 10vw;
-}
-
-label {
-    text-transform: capitalize;
-}
-
-select {
-    width: 100%;
-}
-
-
 
 .header {
     width: 100%;
@@ -115,14 +51,6 @@ select {
     padding: 0;
 }
 
-.header-right .bottom {
-    background-color: green;
-    margin-top: 0;
-    padding: 0;
-    overflow: hidden;
-    border-top: 2px solid #ffffff;
-}
-
 .header-right .up p {
     margin: 0;
     padding: 0;
@@ -130,6 +58,14 @@ select {
     text-transform: capitalize;
     padding: 10px;
 
+}
+
+.header-right .bottom {
+    background-color: green;
+    margin-top: 0;
+    padding: 0;
+    overflow: hidden;
+    border-top: 2px solid #ffffff;
 }
 
 .header-right .bottom h2 {
@@ -151,10 +87,40 @@ select {
     text-transform: capitalize;
 }
 
-hr {
-    color: green;
-    height: 10px;
+.form {
+    border: 2px solid black;
+    width: 80%;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+table {
+    left: 0;
+    right: 0;
+    margin: 7vh auto;
+}
+
+td {
+    width: 50%;
+}
+
+label {
+    text-transform: capitalize;
+}
+
+select {
     width: 100%;
+}
+
+.table2 {
+    display: none;
+}
+
+.table2 td {
+    border: 1px solid black;
+    text-transform: capitalize;
+    width: 225px;
 }
 
 .p-1 {
@@ -162,6 +128,30 @@ hr {
     height: 2px;
     background-color: green;
     color: #fff;
+}
+
+.year {
+    float: Right;
+}
+
+.board {
+    float: Right;
+}
+
+.Roll {
+    float: right;
+}
+
+.Reg {
+    float: right;
+}
+
+#Submit {
+    float: right;
+}
+
+#Reset {
+    float: right;
 }
 
 footer {
@@ -178,13 +168,25 @@ footer {
     margin-right: 3vw;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 750px) {
     .main-body {
         width: 90%;
     }
 
     .form {
         width: 100%;
+    }
+
+    .header-right .bottom h2 {
+        font-size: 15px;
+    }
+
+    .header {
+        height: 100px;
+    }
+
+    .header-left {
+        height: 100px;
     }
 }
 

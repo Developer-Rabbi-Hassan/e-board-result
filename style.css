@@ -25,8 +25,8 @@ body {
 }
 
 .header-left img {
-    width: 60%;
-    height: 60%;
+    width: 50%;
+    height: 50%;
     top: 0;
     bottom: 0;
     left: 0;
@@ -115,7 +115,7 @@ select {
     margin-right: 10%;
 }
 
-.table2 {
+#hidden {
     display: none;
 }
 

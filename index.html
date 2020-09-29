@@ -43,7 +43,7 @@
                         </td>
                         <td>
                             <select name="examination" class="exam" id="exam2">
-                                <option value="SSC/Dakhil/Equalivant">SSC/Dakhil/Equalivant</option>
+                                <option value="SSC/Dakhil/Equalivant" selected="">SSC/Dakhil/Equalivant</option>
                                 <option value="JSC/JDC">JSC/JDC</option>
                                 <option value="SSC(Dakhil)">SSC/Dakhil</option>
                                 <option value="SSC(Vocational)">SSC/Vocational</option>
@@ -63,7 +63,7 @@
                         </td>
                         <td>
                             <select name="year" class="year" id="yearj">
-                                <option value="Select one">Select one</option>
+                                <option value="0000" selected="">Select one</option>
                                 <option value="2020">2020</option>
                                 <option value="2019">2019</option>
                                 <option value="2018">2018</option>
@@ -95,7 +95,7 @@
                         </td>
                         <td>
                             <select name="board" class="board" id="boardj">
-                                <option value="select one">select one</option>
+                                <option value="select one" selected="">select one</option>
                                 <option value="Barisal">Barisal</option>
                                 <option value="Comilla">Comilla</option>
                                 <option value="Dhaka board">Dhaka</option>
@@ -134,7 +134,7 @@
                     </tr>
                     <tr>
                         <td>
-                            <label for="sum">13 + 9</label>
+                            <label for="sum" id="total">13 + 9</label>
                         </td>
                         <td>
                             <label for="sum">:</label>
@@ -148,44 +148,46 @@
                         <td></td>
                         <td>
                             <input onclick="result()" type="button" name="Submit" id="Submit" value="Submit">
-                            <input type="reset" name="reset" id="Reset" value="Reset">
+                            <input onclick="rose()" type="button" name="reset" id="Reset" value="Reset">
                         </td>
                     </tr>
                 </tbody>
 
             </table>
-            <table class="table2">
-                <tbody>
-                    <tr>
-                        <td>examination</td>
-                        <td id="exam"></td>
-                    </tr>
-                    <tr>
-                        <td>year</td>
-                        <td id="year"> </td>
-                    </tr>
-                    <tr>
-                        <td>board</td>
-                        <td id="board"> </td>
-                    </tr>
-                    <tr>
-                        <td>Roll</td>
-                        <td id="Roll"> </td>
-                    </tr>
-                    <tr>
-                        <td>Reg</td>
-                        <td id="Reg"> </td>
-                    </tr>
-                    <tr>
-                        <td>ans</td>
-                        <td id="ans"> </td>
-                    </tr>
-                    <tr>
-                        <td>Result</td>
-                        <td>Congratulations you <span>failed</span></td>
-                    </tr>
-                </tbody>
-            </table>
+            <div id="hidden">
+                <table class="table2" id="table2">
+                    <tbody>
+                        <tr>
+                            <td>examination</td>
+                            <td id="exam"></td>
+                        </tr>
+                        <tr>
+                            <td>year</td>
+                            <td id="year"> </td>
+                        </tr>
+                        <tr>
+                            <td>board</td>
+                            <td id="board"></td>
+                        </tr>
+                        <tr>
+                            <td>Roll</td>
+                            <td id="Roll"> </td>
+                        </tr>
+                        <tr>
+                            <td>Reg</td>
+                            <td id="Reg"> </td>
+                        </tr>
+                        <tr>
+                            <td>ans</td>
+                            <td id="ans"> </td>
+                        </tr>
+                        <tr>
+                            <td>Result</td>
+                            <td>Congratulations you <span>failed</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
         </form>
         <br>
         <p class="p-1">.</p>
